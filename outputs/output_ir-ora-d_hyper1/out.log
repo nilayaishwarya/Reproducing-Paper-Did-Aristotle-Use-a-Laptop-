@@ -1,0 +1,1055 @@
+2022-04-09 20:18:57,215 - INFO - allennlp.common.params - random_seed = 42
+2022-04-09 20:18:57,215 - INFO - allennlp.common.params - numpy_seed = 42
+2022-04-09 20:18:57,215 - INFO - allennlp.common.params - pytorch_seed = 42
+2022-04-09 20:18:57,225 - INFO - allennlp.common.checks - Pytorch version: 1.7.1
+2022-04-09 20:18:57,225 - INFO - allennlp.common.params - type = default
+2022-04-09 20:18:57,226 - INFO - allennlp.common.params - dataset_reader.type = strategy_qa_reader
+2022-04-09 20:18:57,226 - INFO - allennlp.common.params - dataset_reader.lazy = False
+2022-04-09 20:18:57,226 - INFO - allennlp.common.params - dataset_reader.cache_directory = None
+2022-04-09 20:18:57,226 - INFO - allennlp.common.params - dataset_reader.max_instances = None
+2022-04-09 20:18:57,226 - INFO - allennlp.common.params - dataset_reader.manual_distributed_sharding = False
+2022-04-09 20:18:57,226 - INFO - allennlp.common.params - dataset_reader.manual_multi_process_sharding = False
+2022-04-09 20:18:57,226 - INFO - allennlp.common.params - dataset_reader.tokenizer_wrapper.type = default
+2022-04-09 20:18:57,227 - INFO - allennlp.common.params - dataset_reader.tokenizer_wrapper.pretrained_model = roberta-large
+2022-04-09 20:18:57,227 - INFO - allennlp.common.params - dataset_reader.tokenizer_wrapper.call_kwargs.return_offsets_mapping = True
+2022-04-09 20:18:57,227 - INFO - allennlp.common.params - dataset_reader.tokenizer_wrapper.call_kwargs.return_special_tokens_mask = True
+2022-04-09 20:18:57,227 - INFO - allennlp.common.params - dataset_reader.tokenizer_wrapper.call_kwargs.truncation = only_first
+2022-04-09 20:18:58,443 - INFO - allennlp.common.params - dataset_reader.save_tokenizer = True
+2022-04-09 20:18:58,444 - INFO - allennlp.common.params - dataset_reader.is_training = True
+2022-04-09 20:18:58,444 - INFO - allennlp.common.params - dataset_reader.pickle.action = None
+2022-04-09 20:18:58,444 - INFO - allennlp.common.params - dataset_reader.pickle.file_name = None
+2022-04-09 20:18:58,444 - INFO - allennlp.common.params - dataset_reader.pickle.path = ../pickle
+2022-04-09 20:18:58,444 - INFO - allennlp.common.params - dataset_reader.pickle.save_even_when_max_instances = False
+2022-04-09 20:18:58,444 - INFO - allennlp.common.params - dataset_reader.paragraphs_source = IR-ORA-D
+2022-04-09 20:18:58,444 - INFO - allennlp.common.params - dataset_reader.answer_last_decomposition_step = False
+2022-04-09 20:18:58,444 - INFO - allennlp.common.params - dataset_reader.skip_if_context_missing = True
+2022-04-09 20:18:58,444 - INFO - allennlp.common.params - dataset_reader.paragraphs_limit = 10
+2022-04-09 20:18:58,444 - INFO - allennlp.common.params - dataset_reader.generated_decompositions_paths = None
+2022-04-09 20:18:58,444 - INFO - allennlp.common.params - dataset_reader.save_elasticsearch_cache = True
+2022-04-09 20:18:58,897 - INFO - filelock - Lock 140539445750160 acquired on cache.lock
+2022-04-09 20:18:59,561 - INFO - filelock - Lock 140539445750160 released on cache.lock
+2022-04-09 20:18:59,562 - INFO - allennlp.common.params - train_data_path = data/strategyqa/train.json
+2022-04-09 20:18:59,562 - INFO - allennlp.common.params - vocabulary = <allennlp.common.lazy.Lazy object at 0x7fd1ee8101d0>
+2022-04-09 20:18:59,562 - INFO - allennlp.common.params - datasets_for_vocab_creation = None
+2022-04-09 20:18:59,562 - INFO - allennlp.common.params - validation_dataset_reader.type = strategy_qa_reader
+2022-04-09 20:18:59,562 - INFO - allennlp.common.params - validation_dataset_reader.lazy = False
+2022-04-09 20:18:59,563 - INFO - allennlp.common.params - validation_dataset_reader.cache_directory = None
+2022-04-09 20:18:59,563 - INFO - allennlp.common.params - validation_dataset_reader.max_instances = None
+2022-04-09 20:18:59,563 - INFO - allennlp.common.params - validation_dataset_reader.manual_distributed_sharding = False
+2022-04-09 20:18:59,563 - INFO - allennlp.common.params - validation_dataset_reader.manual_multi_process_sharding = False
+2022-04-09 20:18:59,563 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer_wrapper.type = default
+2022-04-09 20:18:59,563 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer_wrapper.pretrained_model = roberta-large
+2022-04-09 20:18:59,563 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer_wrapper.call_kwargs.return_offsets_mapping = True
+2022-04-09 20:18:59,563 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer_wrapper.call_kwargs.return_special_tokens_mask = True
+2022-04-09 20:18:59,563 - INFO - allennlp.common.params - validation_dataset_reader.tokenizer_wrapper.call_kwargs.truncation = only_first
+2022-04-09 20:19:00,740 - INFO - allennlp.common.params - validation_dataset_reader.save_tokenizer = False
+2022-04-09 20:19:00,740 - INFO - allennlp.common.params - validation_dataset_reader.is_training = False
+2022-04-09 20:19:00,740 - INFO - allennlp.common.params - validation_dataset_reader.pickle.action = None
+2022-04-09 20:19:00,740 - INFO - allennlp.common.params - validation_dataset_reader.pickle.file_name = None
+2022-04-09 20:19:00,740 - INFO - allennlp.common.params - validation_dataset_reader.pickle.path = ../pickle
+2022-04-09 20:19:00,740 - INFO - allennlp.common.params - validation_dataset_reader.pickle.save_even_when_max_instances = False
+2022-04-09 20:19:00,740 - INFO - allennlp.common.params - validation_dataset_reader.paragraphs_source = IR-ORA-D
+2022-04-09 20:19:00,741 - INFO - allennlp.common.params - validation_dataset_reader.answer_last_decomposition_step = False
+2022-04-09 20:19:00,741 - INFO - allennlp.common.params - validation_dataset_reader.skip_if_context_missing = True
+2022-04-09 20:19:00,741 - INFO - allennlp.common.params - validation_dataset_reader.paragraphs_limit = 10
+2022-04-09 20:19:00,741 - INFO - allennlp.common.params - validation_dataset_reader.generated_decompositions_paths = None
+2022-04-09 20:19:00,741 - INFO - allennlp.common.params - validation_dataset_reader.save_elasticsearch_cache = True
+2022-04-09 20:19:00,741 - INFO - filelock - Lock 140539446763472 acquired on cache.lock
+2022-04-09 20:19:01,576 - INFO - filelock - Lock 140539446763472 released on cache.lock
+2022-04-09 20:19:01,577 - INFO - allennlp.common.params - validation_data_path = data/strategyqa/dev.json
+2022-04-09 20:19:01,577 - INFO - allennlp.common.params - validation_data_loader = None
+2022-04-09 20:19:01,577 - INFO - allennlp.common.params - test_data_path = None
+2022-04-09 20:19:01,577 - INFO - allennlp.common.params - evaluate_on_test = True
+2022-04-09 20:19:01,577 - INFO - allennlp.common.params - batch_weight_key = 
+2022-04-09 20:19:01,577 - INFO - allennlp.training.util - Reading training data from data/strategyqa/train.json
+2022-04-09 20:19:01,577 - INFO - tqdm - reading instances: 0it [00:00, ?it/s]
+2022-04-09 20:19:01,578 - INFO - src.data.dataset_readers.base.base_dataset_reader - Reading the dataset from scratch
+2022-04-09 20:19:01,578 - INFO - src.data.dataset_readers.strategy_qa_reader - Reading the dataset:
+2022-04-09 20:19:01,578 - INFO - src.data.dataset_readers.strategy_qa_reader - Reading file at data/strategyqa/train.json
+2022-04-09 20:19:09,533 - INFO - filelock - Lock 140538787096912 acquired on cache.lock
+2022-04-09 20:19:10,290 - INFO - filelock - Lock 140538787096912 released on cache.lock
+2022-04-09 20:19:10,326 - INFO - allennlp.training.util - Reading validation data from data/strategyqa/dev.json
+2022-04-09 20:19:10,327 - INFO - tqdm - reading instances: 0it [00:00, ?it/s]
+2022-04-09 20:19:10,327 - INFO - src.data.dataset_readers.base.base_dataset_reader - Reading the dataset from scratch
+2022-04-09 20:19:10,327 - INFO - src.data.dataset_readers.strategy_qa_reader - Reading the dataset:
+2022-04-09 20:19:10,327 - INFO - src.data.dataset_readers.strategy_qa_reader - Reading file at data/strategyqa/dev.json
+2022-04-09 20:19:10,831 - INFO - src.data.dataset_readers.utils.elasticsearch_utils - Empty results from Elasticsearch for: actions commercial pilots take concerning engine noise arriving departing Orange County, California?
+2022-04-09 20:19:11,144 - INFO - filelock - Lock 140538794511440 acquired on cache.lock
+2022-04-09 20:19:11,898 - INFO - filelock - Lock 140538794511440 released on cache.lock
+2022-04-09 20:19:11,932 - INFO - allennlp.common.params - type = from_instances
+2022-04-09 20:19:11,933 - INFO - allennlp.common.params - min_count = None
+2022-04-09 20:19:11,933 - INFO - allennlp.common.params - max_vocab_size = None
+2022-04-09 20:19:11,933 - INFO - allennlp.common.params - non_padded_namespaces = ('*tags', '*labels')
+2022-04-09 20:19:11,933 - INFO - allennlp.common.params - pretrained_files = None
+2022-04-09 20:19:11,933 - INFO - allennlp.common.params - only_include_pretrained_words = False
+2022-04-09 20:19:11,933 - INFO - allennlp.common.params - tokens_to_add = None
+2022-04-09 20:19:11,933 - INFO - allennlp.common.params - min_pretrained_embeddings = None
+2022-04-09 20:19:11,933 - INFO - allennlp.common.params - padding_token = @@PADDING@@
+2022-04-09 20:19:11,933 - INFO - allennlp.common.params - oov_token = @@UNKNOWN@@
+2022-04-09 20:19:11,933 - INFO - allennlp.data.vocabulary - Fitting token dictionary from dataset.
+2022-04-09 20:19:11,934 - INFO - tqdm - building vocab: 0it [00:00, ?it/s]
+2022-04-09 20:19:11,940 - INFO - allennlp.common.params - model.type = hf_classifier
+2022-04-09 20:19:11,940 - INFO - allennlp.common.params - model.regularizer = None
+2022-04-09 20:19:11,940 - INFO - allennlp.common.params - model.pretrained_model = roberta-large
+2022-04-09 20:19:11,940 - INFO - allennlp.common.params - model.tokenizer_wrapper.type = default
+2022-04-09 20:19:11,940 - INFO - allennlp.common.params - model.tokenizer_wrapper.pretrained_model = roberta-large
+2022-04-09 20:19:11,940 - INFO - allennlp.common.params - model.tokenizer_wrapper.call_kwargs.return_offsets_mapping = True
+2022-04-09 20:19:11,940 - INFO - allennlp.common.params - model.tokenizer_wrapper.call_kwargs.return_special_tokens_mask = True
+2022-04-09 20:19:11,940 - INFO - allennlp.common.params - model.tokenizer_wrapper.call_kwargs.truncation = only_first
+2022-04-09 20:19:13,123 - INFO - allennlp.common.params - model.num_labels = 2
+2022-04-09 20:19:13,123 - INFO - allennlp.common.params - model.label_namespace = labels
+2022-04-09 20:19:13,123 - INFO - allennlp.common.params - model.transformer_weights_path = None
+2022-04-09 20:19:13,123 - INFO - allennlp.common.params - model.initializer.regexes.0.1.type = pretrained
+2022-04-09 20:19:13,124 - INFO - allennlp.common.params - model.initializer.regexes.0.1.weights_file_path = output_roberta-star/model.tar.gz
+2022-04-09 20:19:13,124 - INFO - allennlp.models.archival - extracting archive file output_roberta-star/model.tar.gz to temp dir /tmp/tmpmsx9mhsh
+2022-04-09 20:19:24,724 - INFO - allennlp.models.archival - removing temporary unarchived model dir at /tmp/tmpmsx9mhsh
+2022-04-09 20:19:24,905 - INFO - allennlp.common.params - model.initializer.prevent_regexes = None
+2022-04-09 20:19:39,390 - INFO - allennlp.nn.initializers - Initializing parameters
+2022-04-09 20:19:39,390 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.embeddings.word_embeddings.weight using .* initializer
+2022-04-09 20:19:39,402 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.embeddings.position_embeddings.weight using .* initializer
+2022-04-09 20:19:39,402 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.embeddings.token_type_embeddings.weight using .* initializer
+2022-04-09 20:19:39,402 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.embeddings.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,403 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.embeddings.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,403 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,403 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,403 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,404 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,404 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,404 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,404 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,405 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,405 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,405 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,405 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,406 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,406 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.output.dense.weight using .* initializer
+2022-04-09 20:19:39,408 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.output.dense.bias using .* initializer
+2022-04-09 20:19:39,408 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,408 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.0.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,408 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,408 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,408 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,409 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,409 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,409 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,410 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,410 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,410 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,410 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,410 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,411 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,412 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.output.dense.weight using .* initializer
+2022-04-09 20:19:39,413 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.output.dense.bias using .* initializer
+2022-04-09 20:19:39,413 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,413 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.1.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,413 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,414 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,414 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,414 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,414 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,415 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,415 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,415 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,415 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,415 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,416 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,417 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,417 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.output.dense.weight using .* initializer
+2022-04-09 20:19:39,418 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.output.dense.bias using .* initializer
+2022-04-09 20:19:39,418 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,418 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.2.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,418 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,419 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,419 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,419 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,419 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,420 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,420 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,420 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,420 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,421 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,421 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,422 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,422 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.output.dense.weight using .* initializer
+2022-04-09 20:19:39,423 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.output.dense.bias using .* initializer
+2022-04-09 20:19:39,423 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,423 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.3.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,424 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,424 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,424 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,424 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,425 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,425 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,425 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,425 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,426 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,426 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,426 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,427 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,427 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.output.dense.weight using .* initializer
+2022-04-09 20:19:39,428 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.output.dense.bias using .* initializer
+2022-04-09 20:19:39,428 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,428 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.4.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,429 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,429 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,429 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,429 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,430 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,430 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,430 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,431 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,431 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,431 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,431 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,432 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,432 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.output.dense.weight using .* initializer
+2022-04-09 20:19:39,433 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.output.dense.bias using .* initializer
+2022-04-09 20:19:39,433 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,434 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.5.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,434 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,434 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,434 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,435 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,435 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,435 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,435 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,436 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,436 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,436 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,436 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,437 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,437 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.output.dense.weight using .* initializer
+2022-04-09 20:19:39,438 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.output.dense.bias using .* initializer
+2022-04-09 20:19:39,439 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,439 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.6.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,439 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,439 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,439 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,440 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,440 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,440 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,440 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,441 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,441 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,441 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,441 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,442 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,443 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.output.dense.weight using .* initializer
+2022-04-09 20:19:39,444 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.output.dense.bias using .* initializer
+2022-04-09 20:19:39,444 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,444 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.7.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,444 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,444 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,445 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,445 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,445 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,446 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,446 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,446 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,446 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,446 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,446 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,448 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,448 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.output.dense.weight using .* initializer
+2022-04-09 20:19:39,449 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.output.dense.bias using .* initializer
+2022-04-09 20:19:39,449 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,449 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.8.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,449 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,450 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,450 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,450 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,450 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,451 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,451 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,451 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,451 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,452 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,452 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,453 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,453 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.output.dense.weight using .* initializer
+2022-04-09 20:19:39,454 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.output.dense.bias using .* initializer
+2022-04-09 20:19:39,454 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,454 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.9.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,454 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,455 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,455 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,455 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,455 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,456 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,456 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,456 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,457 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,457 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,457 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,458 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,458 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.output.dense.weight using .* initializer
+2022-04-09 20:19:39,459 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.output.dense.bias using .* initializer
+2022-04-09 20:19:39,459 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,459 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.10.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,460 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,460 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,460 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,460 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,461 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,461 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,461 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,462 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,462 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,462 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,462 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,463 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,463 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.output.dense.weight using .* initializer
+2022-04-09 20:19:39,464 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.output.dense.bias using .* initializer
+2022-04-09 20:19:39,464 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,465 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.11.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,465 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,465 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,465 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,466 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,466 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,466 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,466 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,467 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,467 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,467 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,467 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,468 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,468 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.output.dense.weight using .* initializer
+2022-04-09 20:19:39,469 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.output.dense.bias using .* initializer
+2022-04-09 20:19:39,470 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,470 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.12.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,470 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,470 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,470 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,471 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,471 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,471 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,471 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,472 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,472 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,472 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,472 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,473 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,473 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.output.dense.weight using .* initializer
+2022-04-09 20:19:39,475 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.output.dense.bias using .* initializer
+2022-04-09 20:19:39,475 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,475 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.13.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,475 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,475 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,475 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,476 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,476 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,476 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,477 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,477 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,477 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,477 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,477 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,478 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,479 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.output.dense.weight using .* initializer
+2022-04-09 20:19:39,480 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.output.dense.bias using .* initializer
+2022-04-09 20:19:39,480 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,480 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.14.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,480 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,480 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,481 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,481 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,481 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,481 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,482 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,482 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,482 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,482 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,482 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,484 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,484 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.output.dense.weight using .* initializer
+2022-04-09 20:19:39,485 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.output.dense.bias using .* initializer
+2022-04-09 20:19:39,485 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,485 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.15.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,485 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,486 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,486 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,486 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,486 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,487 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,487 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,487 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,487 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,487 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,488 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,489 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,489 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.output.dense.weight using .* initializer
+2022-04-09 20:19:39,490 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.output.dense.bias using .* initializer
+2022-04-09 20:19:39,490 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,490 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.16.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,490 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,491 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,491 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,491 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,491 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,492 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,492 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,492 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,493 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,493 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,493 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,494 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,494 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.output.dense.weight using .* initializer
+2022-04-09 20:19:39,495 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.output.dense.bias using .* initializer
+2022-04-09 20:19:39,495 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,495 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.17.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,495 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,496 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,496 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,496 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,496 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,497 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,497 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,497 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,497 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,498 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,498 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,499 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,499 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.output.dense.weight using .* initializer
+2022-04-09 20:19:39,500 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.output.dense.bias using .* initializer
+2022-04-09 20:19:39,500 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,500 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.18.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,500 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,501 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,501 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,501 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,501 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,502 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,502 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,502 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,502 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,503 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,503 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,504 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,504 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.output.dense.weight using .* initializer
+2022-04-09 20:19:39,505 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.output.dense.bias using .* initializer
+2022-04-09 20:19:39,505 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,505 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.19.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,505 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,506 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,506 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,506 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,506 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,507 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,507 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,507 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,507 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,508 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,508 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,509 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,509 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.output.dense.weight using .* initializer
+2022-04-09 20:19:39,510 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.output.dense.bias using .* initializer
+2022-04-09 20:19:39,510 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,510 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.20.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,510 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,511 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,511 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,511 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,511 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,512 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,512 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,512 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,512 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,512 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,513 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,514 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,514 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.output.dense.weight using .* initializer
+2022-04-09 20:19:39,515 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.output.dense.bias using .* initializer
+2022-04-09 20:19:39,515 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,515 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.21.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,515 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,516 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,516 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,516 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,516 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,517 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,517 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,517 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,517 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,518 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,518 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,519 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,519 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.output.dense.weight using .* initializer
+2022-04-09 20:19:39,520 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.output.dense.bias using .* initializer
+2022-04-09 20:19:39,520 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,520 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.22.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,520 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.attention.self.query.weight using .* initializer
+2022-04-09 20:19:39,520 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.attention.self.query.bias using .* initializer
+2022-04-09 20:19:39,521 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.attention.self.key.weight using .* initializer
+2022-04-09 20:19:39,521 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.attention.self.key.bias using .* initializer
+2022-04-09 20:19:39,521 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.attention.self.value.weight using .* initializer
+2022-04-09 20:19:39,521 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.attention.self.value.bias using .* initializer
+2022-04-09 20:19:39,522 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.attention.output.dense.weight using .* initializer
+2022-04-09 20:19:39,522 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.attention.output.dense.bias using .* initializer
+2022-04-09 20:19:39,522 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.attention.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,522 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.attention.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,522 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.intermediate.dense.weight using .* initializer
+2022-04-09 20:19:39,523 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.intermediate.dense.bias using .* initializer
+2022-04-09 20:19:39,523 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.output.dense.weight using .* initializer
+2022-04-09 20:19:39,524 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.output.dense.bias using .* initializer
+2022-04-09 20:19:39,525 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.output.LayerNorm.weight using .* initializer
+2022-04-09 20:19:39,525 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.encoder.layer.23.output.LayerNorm.bias using .* initializer
+2022-04-09 20:19:39,525 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.pooler.dense.weight using .* initializer
+2022-04-09 20:19:39,525 - INFO - allennlp.nn.initializers - Initializing _classifier.roberta.pooler.dense.bias using .* initializer
+2022-04-09 20:19:39,525 - INFO - allennlp.nn.initializers - Initializing _classifier.classifier.dense.weight using .* initializer
+2022-04-09 20:19:39,526 - INFO - allennlp.nn.initializers - Initializing _classifier.classifier.dense.bias using .* initializer
+2022-04-09 20:19:39,526 - INFO - allennlp.nn.initializers - Initializing _classifier.classifier.out_proj.weight using .* initializer
+2022-04-09 20:19:39,526 - INFO - allennlp.nn.initializers - Initializing _classifier.classifier.out_proj.bias using .* initializer
+2022-04-09 20:19:39,526 - INFO - allennlp.nn.initializers - Done initializing parameters; the following parameters are using their default initialization from their code
+2022-04-09 20:19:40,091 - INFO - filelock - Lock 140538787095568 acquired on ./output_ir-ora-d_hyper1/vocabulary/.lock
+2022-04-09 20:19:40,091 - INFO - filelock - Lock 140538787095568 released on ./output_ir-ora-d_hyper1/vocabulary/.lock
+2022-04-09 20:19:40,091 - INFO - allennlp.common.params - data_loader.type = pytorch_dataloader
+2022-04-09 20:19:40,092 - INFO - allennlp.common.params - data_loader.batch_size = 1
+2022-04-09 20:19:40,092 - INFO - allennlp.common.params - data_loader.shuffle = False
+2022-04-09 20:19:40,092 - INFO - allennlp.common.params - data_loader.sampler = None
+2022-04-09 20:19:40,092 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2022-04-09 20:19:40,092 - INFO - allennlp.common.params - data_loader.pin_memory = False
+2022-04-09 20:19:40,092 - INFO - allennlp.common.params - data_loader.drop_last = False
+2022-04-09 20:19:40,092 - INFO - allennlp.common.params - data_loader.timeout = 0
+2022-04-09 20:19:40,092 - INFO - allennlp.common.params - data_loader.worker_init_fn = None
+2022-04-09 20:19:40,093 - INFO - allennlp.common.params - data_loader.multiprocessing_context = None
+2022-04-09 20:19:40,093 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2022-04-09 20:19:40,093 - INFO - allennlp.common.params - data_loader.batch_sampler.type = bucket
+2022-04-09 20:19:40,093 - INFO - allennlp.common.params - data_loader.batch_sampler.batch_size = 2
+2022-04-09 20:19:40,093 - INFO - allennlp.common.params - data_loader.batch_sampler.sorting_keys = None
+2022-04-09 20:19:40,093 - INFO - allennlp.common.params - data_loader.batch_sampler.padding_noise = 0.1
+2022-04-09 20:19:40,093 - INFO - allennlp.common.params - data_loader.batch_sampler.drop_last = False
+2022-04-09 20:19:40,094 - INFO - allennlp.common.params - data_loader.type = pytorch_dataloader
+2022-04-09 20:19:40,094 - INFO - allennlp.common.params - data_loader.batch_size = 1
+2022-04-09 20:19:40,094 - INFO - allennlp.common.params - data_loader.shuffle = False
+2022-04-09 20:19:40,094 - INFO - allennlp.common.params - data_loader.sampler = None
+2022-04-09 20:19:40,094 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2022-04-09 20:19:40,095 - INFO - allennlp.common.params - data_loader.pin_memory = False
+2022-04-09 20:19:40,095 - INFO - allennlp.common.params - data_loader.drop_last = False
+2022-04-09 20:19:40,095 - INFO - allennlp.common.params - data_loader.timeout = 0
+2022-04-09 20:19:40,095 - INFO - allennlp.common.params - data_loader.worker_init_fn = None
+2022-04-09 20:19:40,095 - INFO - allennlp.common.params - data_loader.multiprocessing_context = None
+2022-04-09 20:19:40,095 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2022-04-09 20:19:40,095 - INFO - allennlp.common.params - data_loader.batch_sampler.type = bucket
+2022-04-09 20:19:40,095 - INFO - allennlp.common.params - data_loader.batch_sampler.batch_size = 2
+2022-04-09 20:19:40,095 - INFO - allennlp.common.params - data_loader.batch_sampler.sorting_keys = None
+2022-04-09 20:19:40,096 - INFO - allennlp.common.params - data_loader.batch_sampler.padding_noise = 0.1
+2022-04-09 20:19:40,096 - INFO - allennlp.common.params - data_loader.batch_sampler.drop_last = False
+2022-04-09 20:19:40,096 - INFO - allennlp.common.params - trainer.type = gradient_descent
+2022-04-09 20:19:40,096 - INFO - allennlp.common.params - trainer.patience = None
+2022-04-09 20:19:40,096 - INFO - allennlp.common.params - trainer.validation_metric = +accuracy
+2022-04-09 20:19:40,097 - INFO - allennlp.common.params - trainer.num_epochs = 18
+2022-04-09 20:19:40,097 - INFO - allennlp.common.params - trainer.cuda_device = 0
+2022-04-09 20:19:40,097 - INFO - allennlp.common.params - trainer.grad_norm = None
+2022-04-09 20:19:40,097 - INFO - allennlp.common.params - trainer.grad_clipping = None
+2022-04-09 20:19:40,097 - INFO - allennlp.common.params - trainer.distributed = False
+2022-04-09 20:19:40,097 - INFO - allennlp.common.params - trainer.world_size = 1
+2022-04-09 20:19:40,097 - INFO - allennlp.common.params - trainer.num_gradient_accumulation_steps = 16
+2022-04-09 20:19:40,097 - INFO - allennlp.common.params - trainer.use_amp = False
+2022-04-09 20:19:40,097 - INFO - allennlp.common.params - trainer.no_grad = None
+2022-04-09 20:19:40,098 - INFO - allennlp.common.params - trainer.momentum_scheduler = None
+2022-04-09 20:19:40,098 - INFO - allennlp.common.params - trainer.tensorboard_writer = <allennlp.common.lazy.Lazy object at 0x7fd1e43bb510>
+2022-04-09 20:19:40,098 - INFO - allennlp.common.params - trainer.moving_average = None
+2022-04-09 20:19:40,098 - INFO - allennlp.common.params - trainer.checkpointer = <allennlp.common.lazy.Lazy object at 0x7fd1e43bb590>
+2022-04-09 20:19:40,098 - INFO - allennlp.common.params - trainer.batch_callbacks = None
+2022-04-09 20:19:40,098 - INFO - allennlp.common.params - trainer.epoch_callbacks = None
+2022-04-09 20:19:40,098 - INFO - allennlp.common.params - trainer.end_callbacks = None
+2022-04-09 20:19:40,098 - INFO - allennlp.common.params - trainer.trainer_callbacks = None
+2022-04-09 20:19:45,141 - INFO - allennlp.common.params - trainer.optimizer.type = huggingface_adamw
+2022-04-09 20:19:45,141 - INFO - allennlp.common.params - trainer.optimizer.parameter_groups = None
+2022-04-09 20:19:45,141 - INFO - allennlp.common.params - trainer.optimizer.lr = 1e-05
+2022-04-09 20:19:45,141 - INFO - allennlp.common.params - trainer.optimizer.betas = [0.9, 0.98]
+2022-04-09 20:19:45,142 - INFO - allennlp.common.params - trainer.optimizer.eps = 1e-06
+2022-04-09 20:19:45,142 - INFO - allennlp.common.params - trainer.optimizer.weight_decay = 0.05
+2022-04-09 20:19:45,142 - INFO - allennlp.common.params - trainer.optimizer.correct_bias = True
+2022-04-09 20:19:45,142 - INFO - allennlp.training.optimizers - Number of trainable parameters: 356411394
+2022-04-09 20:19:45,144 - INFO - allennlp.common.util - The following parameters are Frozen (without gradient):
+2022-04-09 20:19:45,146 - INFO - allennlp.common.util - The following parameters are Tunable (with gradient):
+2022-04-09 20:19:45,147 - INFO - allennlp.common.util - _classifier.roberta.embeddings.word_embeddings.weight
+2022-04-09 20:19:45,147 - INFO - allennlp.common.util - _classifier.roberta.embeddings.position_embeddings.weight
+2022-04-09 20:19:45,147 - INFO - allennlp.common.util - _classifier.roberta.embeddings.token_type_embeddings.weight
+2022-04-09 20:19:45,147 - INFO - allennlp.common.util - _classifier.roberta.embeddings.LayerNorm.weight
+2022-04-09 20:19:45,147 - INFO - allennlp.common.util - _classifier.roberta.embeddings.LayerNorm.bias
+2022-04-09 20:19:45,147 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.attention.self.query.weight
+2022-04-09 20:19:45,147 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.attention.self.query.bias
+2022-04-09 20:19:45,147 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.attention.self.key.weight
+2022-04-09 20:19:45,147 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.attention.self.key.bias
+2022-04-09 20:19:45,148 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.attention.self.value.weight
+2022-04-09 20:19:45,148 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.attention.self.value.bias
+2022-04-09 20:19:45,148 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.attention.output.dense.weight
+2022-04-09 20:19:45,148 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.attention.output.dense.bias
+2022-04-09 20:19:45,148 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,148 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,148 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.intermediate.dense.weight
+2022-04-09 20:19:45,148 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.intermediate.dense.bias
+2022-04-09 20:19:45,148 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.output.dense.weight
+2022-04-09 20:19:45,148 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.output.dense.bias
+2022-04-09 20:19:45,148 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.output.LayerNorm.weight
+2022-04-09 20:19:45,149 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.0.output.LayerNorm.bias
+2022-04-09 20:19:45,149 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.attention.self.query.weight
+2022-04-09 20:19:45,149 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.attention.self.query.bias
+2022-04-09 20:19:45,149 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.attention.self.key.weight
+2022-04-09 20:19:45,149 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.attention.self.key.bias
+2022-04-09 20:19:45,149 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.attention.self.value.weight
+2022-04-09 20:19:45,149 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.attention.self.value.bias
+2022-04-09 20:19:45,149 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.attention.output.dense.weight
+2022-04-09 20:19:45,149 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.attention.output.dense.bias
+2022-04-09 20:19:45,149 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,149 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,150 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.intermediate.dense.weight
+2022-04-09 20:19:45,150 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.intermediate.dense.bias
+2022-04-09 20:19:45,150 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.output.dense.weight
+2022-04-09 20:19:45,150 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.output.dense.bias
+2022-04-09 20:19:45,150 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.output.LayerNorm.weight
+2022-04-09 20:19:45,150 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.1.output.LayerNorm.bias
+2022-04-09 20:19:45,150 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.attention.self.query.weight
+2022-04-09 20:19:45,150 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.attention.self.query.bias
+2022-04-09 20:19:45,150 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.attention.self.key.weight
+2022-04-09 20:19:45,150 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.attention.self.key.bias
+2022-04-09 20:19:45,150 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.attention.self.value.weight
+2022-04-09 20:19:45,150 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.attention.self.value.bias
+2022-04-09 20:19:45,151 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.attention.output.dense.weight
+2022-04-09 20:19:45,151 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.attention.output.dense.bias
+2022-04-09 20:19:45,151 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,151 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,151 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.intermediate.dense.weight
+2022-04-09 20:19:45,151 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.intermediate.dense.bias
+2022-04-09 20:19:45,151 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.output.dense.weight
+2022-04-09 20:19:45,151 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.output.dense.bias
+2022-04-09 20:19:45,151 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.output.LayerNorm.weight
+2022-04-09 20:19:45,151 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.2.output.LayerNorm.bias
+2022-04-09 20:19:45,151 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.attention.self.query.weight
+2022-04-09 20:19:45,151 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.attention.self.query.bias
+2022-04-09 20:19:45,152 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.attention.self.key.weight
+2022-04-09 20:19:45,152 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.attention.self.key.bias
+2022-04-09 20:19:45,152 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.attention.self.value.weight
+2022-04-09 20:19:45,152 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.attention.self.value.bias
+2022-04-09 20:19:45,152 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.attention.output.dense.weight
+2022-04-09 20:19:45,152 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.attention.output.dense.bias
+2022-04-09 20:19:45,152 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,152 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,152 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.intermediate.dense.weight
+2022-04-09 20:19:45,152 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.intermediate.dense.bias
+2022-04-09 20:19:45,152 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.output.dense.weight
+2022-04-09 20:19:45,153 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.output.dense.bias
+2022-04-09 20:19:45,153 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.output.LayerNorm.weight
+2022-04-09 20:19:45,153 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.3.output.LayerNorm.bias
+2022-04-09 20:19:45,153 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.attention.self.query.weight
+2022-04-09 20:19:45,153 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.attention.self.query.bias
+2022-04-09 20:19:45,153 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.attention.self.key.weight
+2022-04-09 20:19:45,153 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.attention.self.key.bias
+2022-04-09 20:19:45,153 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.attention.self.value.weight
+2022-04-09 20:19:45,153 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.attention.self.value.bias
+2022-04-09 20:19:45,153 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.attention.output.dense.weight
+2022-04-09 20:19:45,153 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.attention.output.dense.bias
+2022-04-09 20:19:45,153 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,154 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,154 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.intermediate.dense.weight
+2022-04-09 20:19:45,154 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.intermediate.dense.bias
+2022-04-09 20:19:45,154 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.output.dense.weight
+2022-04-09 20:19:45,154 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.output.dense.bias
+2022-04-09 20:19:45,154 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.output.LayerNorm.weight
+2022-04-09 20:19:45,154 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.4.output.LayerNorm.bias
+2022-04-09 20:19:45,154 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.attention.self.query.weight
+2022-04-09 20:19:45,154 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.attention.self.query.bias
+2022-04-09 20:19:45,154 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.attention.self.key.weight
+2022-04-09 20:19:45,154 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.attention.self.key.bias
+2022-04-09 20:19:45,154 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.attention.self.value.weight
+2022-04-09 20:19:45,155 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.attention.self.value.bias
+2022-04-09 20:19:45,155 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.attention.output.dense.weight
+2022-04-09 20:19:45,155 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.attention.output.dense.bias
+2022-04-09 20:19:45,155 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,155 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,155 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.intermediate.dense.weight
+2022-04-09 20:19:45,155 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.intermediate.dense.bias
+2022-04-09 20:19:45,155 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.output.dense.weight
+2022-04-09 20:19:45,155 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.output.dense.bias
+2022-04-09 20:19:45,155 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.output.LayerNorm.weight
+2022-04-09 20:19:45,155 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.5.output.LayerNorm.bias
+2022-04-09 20:19:45,155 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.attention.self.query.weight
+2022-04-09 20:19:45,156 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.attention.self.query.bias
+2022-04-09 20:19:45,156 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.attention.self.key.weight
+2022-04-09 20:19:45,156 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.attention.self.key.bias
+2022-04-09 20:19:45,156 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.attention.self.value.weight
+2022-04-09 20:19:45,156 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.attention.self.value.bias
+2022-04-09 20:19:45,156 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.attention.output.dense.weight
+2022-04-09 20:19:45,156 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.attention.output.dense.bias
+2022-04-09 20:19:45,156 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,156 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,156 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.intermediate.dense.weight
+2022-04-09 20:19:45,156 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.intermediate.dense.bias
+2022-04-09 20:19:45,156 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.output.dense.weight
+2022-04-09 20:19:45,157 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.output.dense.bias
+2022-04-09 20:19:45,157 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.output.LayerNorm.weight
+2022-04-09 20:19:45,157 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.6.output.LayerNorm.bias
+2022-04-09 20:19:45,157 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.attention.self.query.weight
+2022-04-09 20:19:45,157 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.attention.self.query.bias
+2022-04-09 20:19:45,157 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.attention.self.key.weight
+2022-04-09 20:19:45,157 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.attention.self.key.bias
+2022-04-09 20:19:45,157 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.attention.self.value.weight
+2022-04-09 20:19:45,157 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.attention.self.value.bias
+2022-04-09 20:19:45,157 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.attention.output.dense.weight
+2022-04-09 20:19:45,157 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.attention.output.dense.bias
+2022-04-09 20:19:45,157 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,158 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,158 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.intermediate.dense.weight
+2022-04-09 20:19:45,158 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.intermediate.dense.bias
+2022-04-09 20:19:45,158 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.output.dense.weight
+2022-04-09 20:19:45,158 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.output.dense.bias
+2022-04-09 20:19:45,158 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.output.LayerNorm.weight
+2022-04-09 20:19:45,158 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.7.output.LayerNorm.bias
+2022-04-09 20:19:45,158 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.attention.self.query.weight
+2022-04-09 20:19:45,158 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.attention.self.query.bias
+2022-04-09 20:19:45,158 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.attention.self.key.weight
+2022-04-09 20:19:45,158 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.attention.self.key.bias
+2022-04-09 20:19:45,158 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.attention.self.value.weight
+2022-04-09 20:19:45,159 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.attention.self.value.bias
+2022-04-09 20:19:45,159 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.attention.output.dense.weight
+2022-04-09 20:19:45,159 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.attention.output.dense.bias
+2022-04-09 20:19:45,159 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,159 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,159 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.intermediate.dense.weight
+2022-04-09 20:19:45,159 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.intermediate.dense.bias
+2022-04-09 20:19:45,159 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.output.dense.weight
+2022-04-09 20:19:45,159 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.output.dense.bias
+2022-04-09 20:19:45,159 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.output.LayerNorm.weight
+2022-04-09 20:19:45,159 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.8.output.LayerNorm.bias
+2022-04-09 20:19:45,159 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.attention.self.query.weight
+2022-04-09 20:19:45,160 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.attention.self.query.bias
+2022-04-09 20:19:45,160 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.attention.self.key.weight
+2022-04-09 20:19:45,160 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.attention.self.key.bias
+2022-04-09 20:19:45,160 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.attention.self.value.weight
+2022-04-09 20:19:45,160 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.attention.self.value.bias
+2022-04-09 20:19:45,160 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.attention.output.dense.weight
+2022-04-09 20:19:45,160 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.attention.output.dense.bias
+2022-04-09 20:19:45,160 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,160 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,160 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.intermediate.dense.weight
+2022-04-09 20:19:45,160 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.intermediate.dense.bias
+2022-04-09 20:19:45,160 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.output.dense.weight
+2022-04-09 20:19:45,161 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.output.dense.bias
+2022-04-09 20:19:45,161 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.output.LayerNorm.weight
+2022-04-09 20:19:45,161 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.9.output.LayerNorm.bias
+2022-04-09 20:19:45,161 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.attention.self.query.weight
+2022-04-09 20:19:45,161 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.attention.self.query.bias
+2022-04-09 20:19:45,161 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.attention.self.key.weight
+2022-04-09 20:19:45,161 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.attention.self.key.bias
+2022-04-09 20:19:45,161 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.attention.self.value.weight
+2022-04-09 20:19:45,161 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.attention.self.value.bias
+2022-04-09 20:19:45,161 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.attention.output.dense.weight
+2022-04-09 20:19:45,161 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.attention.output.dense.bias
+2022-04-09 20:19:45,161 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,162 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,162 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.intermediate.dense.weight
+2022-04-09 20:19:45,162 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.intermediate.dense.bias
+2022-04-09 20:19:45,162 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.output.dense.weight
+2022-04-09 20:19:45,162 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.output.dense.bias
+2022-04-09 20:19:45,162 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.output.LayerNorm.weight
+2022-04-09 20:19:45,162 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.10.output.LayerNorm.bias
+2022-04-09 20:19:45,162 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.attention.self.query.weight
+2022-04-09 20:19:45,162 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.attention.self.query.bias
+2022-04-09 20:19:45,162 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.attention.self.key.weight
+2022-04-09 20:19:45,162 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.attention.self.key.bias
+2022-04-09 20:19:45,162 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.attention.self.value.weight
+2022-04-09 20:19:45,163 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.attention.self.value.bias
+2022-04-09 20:19:45,163 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.attention.output.dense.weight
+2022-04-09 20:19:45,163 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.attention.output.dense.bias
+2022-04-09 20:19:45,163 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,163 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,163 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.intermediate.dense.weight
+2022-04-09 20:19:45,163 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.intermediate.dense.bias
+2022-04-09 20:19:45,163 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.output.dense.weight
+2022-04-09 20:19:45,163 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.output.dense.bias
+2022-04-09 20:19:45,163 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.output.LayerNorm.weight
+2022-04-09 20:19:45,163 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.11.output.LayerNorm.bias
+2022-04-09 20:19:45,163 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.attention.self.query.weight
+2022-04-09 20:19:45,164 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.attention.self.query.bias
+2022-04-09 20:19:45,164 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.attention.self.key.weight
+2022-04-09 20:19:45,164 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.attention.self.key.bias
+2022-04-09 20:19:45,164 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.attention.self.value.weight
+2022-04-09 20:19:45,164 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.attention.self.value.bias
+2022-04-09 20:19:45,164 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.attention.output.dense.weight
+2022-04-09 20:19:45,164 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.attention.output.dense.bias
+2022-04-09 20:19:45,164 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,164 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,164 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.intermediate.dense.weight
+2022-04-09 20:19:45,164 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.intermediate.dense.bias
+2022-04-09 20:19:45,165 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.output.dense.weight
+2022-04-09 20:19:45,165 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.output.dense.bias
+2022-04-09 20:19:45,165 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.output.LayerNorm.weight
+2022-04-09 20:19:45,165 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.12.output.LayerNorm.bias
+2022-04-09 20:19:45,165 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.attention.self.query.weight
+2022-04-09 20:19:45,165 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.attention.self.query.bias
+2022-04-09 20:19:45,165 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.attention.self.key.weight
+2022-04-09 20:19:45,165 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.attention.self.key.bias
+2022-04-09 20:19:45,165 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.attention.self.value.weight
+2022-04-09 20:19:45,165 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.attention.self.value.bias
+2022-04-09 20:19:45,165 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.attention.output.dense.weight
+2022-04-09 20:19:45,166 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.attention.output.dense.bias
+2022-04-09 20:19:45,166 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,166 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,166 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.intermediate.dense.weight
+2022-04-09 20:19:45,166 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.intermediate.dense.bias
+2022-04-09 20:19:45,166 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.output.dense.weight
+2022-04-09 20:19:45,166 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.output.dense.bias
+2022-04-09 20:19:45,166 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.output.LayerNorm.weight
+2022-04-09 20:19:45,166 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.13.output.LayerNorm.bias
+2022-04-09 20:19:45,166 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.attention.self.query.weight
+2022-04-09 20:19:45,166 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.attention.self.query.bias
+2022-04-09 20:19:45,166 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.attention.self.key.weight
+2022-04-09 20:19:45,167 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.attention.self.key.bias
+2022-04-09 20:19:45,167 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.attention.self.value.weight
+2022-04-09 20:19:45,167 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.attention.self.value.bias
+2022-04-09 20:19:45,167 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.attention.output.dense.weight
+2022-04-09 20:19:45,167 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.attention.output.dense.bias
+2022-04-09 20:19:45,167 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,167 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,167 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.intermediate.dense.weight
+2022-04-09 20:19:45,167 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.intermediate.dense.bias
+2022-04-09 20:19:45,167 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.output.dense.weight
+2022-04-09 20:19:45,167 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.output.dense.bias
+2022-04-09 20:19:45,168 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.output.LayerNorm.weight
+2022-04-09 20:19:45,168 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.14.output.LayerNorm.bias
+2022-04-09 20:19:45,168 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.attention.self.query.weight
+2022-04-09 20:19:45,168 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.attention.self.query.bias
+2022-04-09 20:19:45,168 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.attention.self.key.weight
+2022-04-09 20:19:45,168 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.attention.self.key.bias
+2022-04-09 20:19:45,168 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.attention.self.value.weight
+2022-04-09 20:19:45,168 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.attention.self.value.bias
+2022-04-09 20:19:45,168 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.attention.output.dense.weight
+2022-04-09 20:19:45,168 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.attention.output.dense.bias
+2022-04-09 20:19:45,168 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,169 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,169 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.intermediate.dense.weight
+2022-04-09 20:19:45,169 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.intermediate.dense.bias
+2022-04-09 20:19:45,169 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.output.dense.weight
+2022-04-09 20:19:45,169 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.output.dense.bias
+2022-04-09 20:19:45,169 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.output.LayerNorm.weight
+2022-04-09 20:19:45,169 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.15.output.LayerNorm.bias
+2022-04-09 20:19:45,169 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.attention.self.query.weight
+2022-04-09 20:19:45,169 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.attention.self.query.bias
+2022-04-09 20:19:45,169 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.attention.self.key.weight
+2022-04-09 20:19:45,169 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.attention.self.key.bias
+2022-04-09 20:19:45,170 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.attention.self.value.weight
+2022-04-09 20:19:45,170 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.attention.self.value.bias
+2022-04-09 20:19:45,170 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.attention.output.dense.weight
+2022-04-09 20:19:45,170 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.attention.output.dense.bias
+2022-04-09 20:19:45,170 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,170 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,170 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.intermediate.dense.weight
+2022-04-09 20:19:45,170 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.intermediate.dense.bias
+2022-04-09 20:19:45,170 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.output.dense.weight
+2022-04-09 20:19:45,170 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.output.dense.bias
+2022-04-09 20:19:45,170 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.output.LayerNorm.weight
+2022-04-09 20:19:45,171 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.16.output.LayerNorm.bias
+2022-04-09 20:19:45,171 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.attention.self.query.weight
+2022-04-09 20:19:45,171 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.attention.self.query.bias
+2022-04-09 20:19:45,171 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.attention.self.key.weight
+2022-04-09 20:19:45,171 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.attention.self.key.bias
+2022-04-09 20:19:45,171 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.attention.self.value.weight
+2022-04-09 20:19:45,171 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.attention.self.value.bias
+2022-04-09 20:19:45,171 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.attention.output.dense.weight
+2022-04-09 20:19:45,171 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.attention.output.dense.bias
+2022-04-09 20:19:45,171 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,171 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,172 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.intermediate.dense.weight
+2022-04-09 20:19:45,172 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.intermediate.dense.bias
+2022-04-09 20:19:45,172 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.output.dense.weight
+2022-04-09 20:19:45,172 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.output.dense.bias
+2022-04-09 20:19:45,172 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.output.LayerNorm.weight
+2022-04-09 20:19:45,172 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.17.output.LayerNorm.bias
+2022-04-09 20:19:45,172 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.attention.self.query.weight
+2022-04-09 20:19:45,172 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.attention.self.query.bias
+2022-04-09 20:19:45,172 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.attention.self.key.weight
+2022-04-09 20:19:45,172 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.attention.self.key.bias
+2022-04-09 20:19:45,173 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.attention.self.value.weight
+2022-04-09 20:19:45,173 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.attention.self.value.bias
+2022-04-09 20:19:45,173 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.attention.output.dense.weight
+2022-04-09 20:19:45,173 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.attention.output.dense.bias
+2022-04-09 20:19:45,173 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,173 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,173 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.intermediate.dense.weight
+2022-04-09 20:19:45,173 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.intermediate.dense.bias
+2022-04-09 20:19:45,173 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.output.dense.weight
+2022-04-09 20:19:45,173 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.output.dense.bias
+2022-04-09 20:19:45,173 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.output.LayerNorm.weight
+2022-04-09 20:19:45,174 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.18.output.LayerNorm.bias
+2022-04-09 20:19:45,174 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.attention.self.query.weight
+2022-04-09 20:19:45,174 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.attention.self.query.bias
+2022-04-09 20:19:45,174 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.attention.self.key.weight
+2022-04-09 20:19:45,174 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.attention.self.key.bias
+2022-04-09 20:19:45,174 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.attention.self.value.weight
+2022-04-09 20:19:45,174 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.attention.self.value.bias
+2022-04-09 20:19:45,174 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.attention.output.dense.weight
+2022-04-09 20:19:45,174 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.attention.output.dense.bias
+2022-04-09 20:19:45,174 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,175 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,175 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.intermediate.dense.weight
+2022-04-09 20:19:45,175 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.intermediate.dense.bias
+2022-04-09 20:19:45,175 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.output.dense.weight
+2022-04-09 20:19:45,175 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.output.dense.bias
+2022-04-09 20:19:45,175 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.output.LayerNorm.weight
+2022-04-09 20:19:45,175 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.19.output.LayerNorm.bias
+2022-04-09 20:19:45,175 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.attention.self.query.weight
+2022-04-09 20:19:45,175 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.attention.self.query.bias
+2022-04-09 20:19:45,175 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.attention.self.key.weight
+2022-04-09 20:19:45,175 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.attention.self.key.bias
+2022-04-09 20:19:45,176 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.attention.self.value.weight
+2022-04-09 20:19:45,176 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.attention.self.value.bias
+2022-04-09 20:19:45,176 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.attention.output.dense.weight
+2022-04-09 20:19:45,176 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.attention.output.dense.bias
+2022-04-09 20:19:45,176 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,176 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,176 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.intermediate.dense.weight
+2022-04-09 20:19:45,176 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.intermediate.dense.bias
+2022-04-09 20:19:45,176 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.output.dense.weight
+2022-04-09 20:19:45,176 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.output.dense.bias
+2022-04-09 20:19:45,176 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.output.LayerNorm.weight
+2022-04-09 20:19:45,177 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.20.output.LayerNorm.bias
+2022-04-09 20:19:45,177 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.attention.self.query.weight
+2022-04-09 20:19:45,177 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.attention.self.query.bias
+2022-04-09 20:19:45,177 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.attention.self.key.weight
+2022-04-09 20:19:45,177 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.attention.self.key.bias
+2022-04-09 20:19:45,177 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.attention.self.value.weight
+2022-04-09 20:19:45,177 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.attention.self.value.bias
+2022-04-09 20:19:45,177 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.attention.output.dense.weight
+2022-04-09 20:19:45,177 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.attention.output.dense.bias
+2022-04-09 20:19:45,177 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,177 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,177 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.intermediate.dense.weight
+2022-04-09 20:19:45,178 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.intermediate.dense.bias
+2022-04-09 20:19:45,178 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.output.dense.weight
+2022-04-09 20:19:45,178 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.output.dense.bias
+2022-04-09 20:19:45,178 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.output.LayerNorm.weight
+2022-04-09 20:19:45,178 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.21.output.LayerNorm.bias
+2022-04-09 20:19:45,178 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.attention.self.query.weight
+2022-04-09 20:19:45,178 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.attention.self.query.bias
+2022-04-09 20:19:45,178 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.attention.self.key.weight
+2022-04-09 20:19:45,178 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.attention.self.key.bias
+2022-04-09 20:19:45,178 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.attention.self.value.weight
+2022-04-09 20:19:45,178 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.attention.self.value.bias
+2022-04-09 20:19:45,179 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.attention.output.dense.weight
+2022-04-09 20:19:45,179 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.attention.output.dense.bias
+2022-04-09 20:19:45,179 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,179 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,179 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.intermediate.dense.weight
+2022-04-09 20:19:45,179 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.intermediate.dense.bias
+2022-04-09 20:19:45,179 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.output.dense.weight
+2022-04-09 20:19:45,179 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.output.dense.bias
+2022-04-09 20:19:45,179 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.output.LayerNorm.weight
+2022-04-09 20:19:45,179 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.22.output.LayerNorm.bias
+2022-04-09 20:19:45,180 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.attention.self.query.weight
+2022-04-09 20:19:45,180 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.attention.self.query.bias
+2022-04-09 20:19:45,180 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.attention.self.key.weight
+2022-04-09 20:19:45,180 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.attention.self.key.bias
+2022-04-09 20:19:45,180 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.attention.self.value.weight
+2022-04-09 20:19:45,180 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.attention.self.value.bias
+2022-04-09 20:19:45,180 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.attention.output.dense.weight
+2022-04-09 20:19:45,180 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.attention.output.dense.bias
+2022-04-09 20:19:45,180 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.attention.output.LayerNorm.weight
+2022-04-09 20:19:45,180 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.attention.output.LayerNorm.bias
+2022-04-09 20:19:45,180 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.intermediate.dense.weight
+2022-04-09 20:19:45,181 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.intermediate.dense.bias
+2022-04-09 20:19:45,181 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.output.dense.weight
+2022-04-09 20:19:45,181 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.output.dense.bias
+2022-04-09 20:19:45,181 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.output.LayerNorm.weight
+2022-04-09 20:19:45,181 - INFO - allennlp.common.util - _classifier.roberta.encoder.layer.23.output.LayerNorm.bias
+2022-04-09 20:19:45,181 - INFO - allennlp.common.util - _classifier.roberta.pooler.dense.weight
+2022-04-09 20:19:45,181 - INFO - allennlp.common.util - _classifier.roberta.pooler.dense.bias
+2022-04-09 20:19:45,181 - INFO - allennlp.common.util - _classifier.classifier.dense.weight
+2022-04-09 20:19:45,181 - INFO - allennlp.common.util - _classifier.classifier.dense.bias
+2022-04-09 20:19:45,181 - INFO - allennlp.common.util - _classifier.classifier.out_proj.weight
+2022-04-09 20:19:45,182 - INFO - allennlp.common.util - _classifier.classifier.out_proj.bias
+2022-04-09 20:19:45,182 - INFO - allennlp.common.params - trainer.learning_rate_scheduler.type = slanted_triangular
+2022-04-09 20:19:45,182 - INFO - allennlp.common.params - trainer.learning_rate_scheduler.cut_frac = 0.06
+2022-04-09 20:19:45,182 - INFO - allennlp.common.params - trainer.learning_rate_scheduler.ratio = 32
+2022-04-09 20:19:45,182 - INFO - allennlp.common.params - trainer.learning_rate_scheduler.last_epoch = -1
+2022-04-09 20:19:45,182 - INFO - allennlp.common.params - trainer.learning_rate_scheduler.gradual_unfreezing = False
+2022-04-09 20:19:45,183 - INFO - allennlp.common.params - trainer.learning_rate_scheduler.discriminative_fine_tuning = False
+2022-04-09 20:19:45,183 - INFO - allennlp.common.params - trainer.learning_rate_scheduler.decay_factor = 0.38
+2022-04-09 20:19:45,183 - INFO - allennlp.common.params - type = default
+2022-04-09 20:19:45,183 - INFO - allennlp.common.params - keep_serialized_model_every_num_seconds = None
+2022-04-09 20:19:45,183 - INFO - allennlp.common.params - num_serialized_models_to_keep = 2
+2022-04-09 20:19:45,183 - INFO - allennlp.common.params - model_save_interval = None
+2022-04-09 20:19:45,184 - INFO - allennlp.common.params - summary_interval = 100
+2022-04-09 20:19:45,184 - INFO - allennlp.common.params - histogram_interval = None
+2022-04-09 20:19:45,184 - INFO - allennlp.common.params - batch_size_interval = None
+2022-04-09 20:19:45,184 - INFO - allennlp.common.params - should_log_parameter_statistics = True
+2022-04-09 20:19:45,184 - INFO - allennlp.common.params - should_log_learning_rate = False
+2022-04-09 20:19:45,184 - INFO - allennlp.common.params - get_batch_num_total = None
+2022-04-09 20:19:45,186 - WARNING - allennlp.training.trainer - You provided a validation dataset but patience was set to None, meaning that early stopping is disabled
+2022-04-09 20:19:45,280 - INFO - allennlp.training.trainer - Beginning training.
+2022-04-09 20:19:45,280 - INFO - allennlp.training.trainer - Epoch 0/17
+2022-04-09 20:19:45,280 - INFO - allennlp.training.trainer - Worker 0 memory usage: 5.7G
+2022-04-09 20:19:45,280 - INFO - allennlp.training.trainer - GPU 0 memory usage: 1.3G
+2022-04-09 20:19:45,281 - INFO - allennlp.training.trainer - Training
+2022-04-09 20:19:45,282 - INFO - tqdm - 0%|          | 0/65 [00:00<?, ?it/s]
+2022-04-09 20:19:45,282 - INFO - allennlp.data.samplers.bucket_batch_sampler - No sorting keys given; trying to guess a good one
+2022-04-09 20:19:45,282 - INFO - allennlp.data.samplers.bucket_batch_sampler - Using ['tokens'] as the sorting keys
+2022-04-09 20:19:45,383 - CRITICAL - root - Uncaught exception
+Traceback (most recent call last):
+  File "run_scripts/train.py", line 100, in <module>
+    main()
+  File "run_scripts/train.py", line 96, in main
+    return run(args)
+  File "run_scripts/train.py", line 69, in run
+    run_main()
+  File "/home/jupyter/src/strategyqa/run_scripts/run.py", line 53, in main
+    run(args)
+  File "/home/jupyter/src/strategyqa/run_scripts/run.py", line 45, in run
+    allennlp_main()
+  File "/opt/conda/lib/python3.7/site-packages/allennlp/commands/__init__.py", line 118, in main
+    args.func(args)
+  File "/opt/conda/lib/python3.7/site-packages/allennlp/commands/train.py", line 119, in train_model_from_args
+    file_friendly_logging=args.file_friendly_logging,
+  File "/opt/conda/lib/python3.7/site-packages/allennlp/commands/train.py", line 178, in train_model_from_file
+    file_friendly_logging=file_friendly_logging,
+  File "/opt/conda/lib/python3.7/site-packages/allennlp/commands/train.py", line 242, in train_model
+    file_friendly_logging=file_friendly_logging,
+  File "/opt/conda/lib/python3.7/site-packages/allennlp/commands/train.py", line 466, in _train_worker
+    metrics = train_loop.run()
+  File "/opt/conda/lib/python3.7/site-packages/allennlp/commands/train.py", line 528, in run
+    return self.trainer.train()
+  File "/opt/conda/lib/python3.7/site-packages/allennlp/training/trainer.py", line 966, in train
+    return self._try_train()
+  File "/opt/conda/lib/python3.7/site-packages/allennlp/training/trainer.py", line 1001, in _try_train
+    train_metrics = self._train_epoch(epoch)
+  File "/opt/conda/lib/python3.7/site-packages/allennlp/training/trainer.py", line 716, in _train_epoch
+    batch_outputs = self.batch_outputs(batch, for_training=True)
+  File "/opt/conda/lib/python3.7/site-packages/allennlp/training/trainer.py", line 604, in batch_outputs
+    output_dict = self._pytorch_model(**batch)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/jupyter/src/strategyqa/src/models/hf_classifier.py", line 90, in forward
+    output_dict = self._classifier(**tokens, labels=label)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/transformers/modeling_roberta.py", line 479, in forward
+    return_dict=return_dict,
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/transformers/modeling_bert.py", line 835, in forward
+    return_dict=return_dict,
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/transformers/modeling_bert.py", line 490, in forward
+    output_attentions,
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/transformers/modeling_bert.py", line 412, in forward
+    output_attentions=output_attentions,
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/transformers/modeling_bert.py", line 349, in forward
+    output_attentions,
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/transformers/modeling_bert.py", line 279, in forward
+    attention_probs = self.dropout(attention_probs)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/dropout.py", line 58, in forward
+    return F.dropout(input, self.p, self.training, self.inplace)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/functional.py", line 983, in dropout
+    else _VF.dropout(input, p, training))
+RuntimeError: CUDA out of memory. Tried to allocate 32.00 MiB (GPU 0; 14.76 GiB total capacity; 2.75 GiB already allocated; 14.75 MiB free; 2.75 GiB reserved in total by PyTorch)

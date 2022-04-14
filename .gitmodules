@@ -1,0 +1,3 @@
+[submodule "strategyqa"]
+	path = strategyqa
+	url = ./strategyqa/
